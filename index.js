@@ -1,4 +1,6 @@
 console.log('hello world at external file')
 
 $name="marc";
-alert($name);
+window.alert(window.$name);
+
+console.log(window);/*mostra funcions predefinides */
