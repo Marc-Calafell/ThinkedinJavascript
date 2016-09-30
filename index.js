@@ -10,8 +10,9 @@ var Person = {
     'age': '21'
 };
 Person.hello=function hello() {
-    console.log('hello world');
+    console.log('hello ' + Person.name + Person.sn);
 }
+Person.sn= ' Calafell Gisbert';
+Person.hello();
 
-Person.sn= 'Ca' +
-    'lafell Gisbert';
+
