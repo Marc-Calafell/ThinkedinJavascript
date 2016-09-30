@@ -1,6 +1,10 @@
 //console.log('hello world at external file');
 
 
+//ecma script 6 --> novaa versio js
+//let_
+//const
+
 //window.alert(window.$name);
 //console.log(window);/*mostra funcions predefinides */
 //scope d'una variable. funcions
