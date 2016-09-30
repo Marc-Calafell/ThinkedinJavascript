@@ -3,7 +3,7 @@
 
 //namespaces de moment no tenim classe
 
-//var myApp;
+//json
 var Person = {
     'name': 'Marc',
     'sn': 'Calafell',
@@ -15,4 +15,17 @@ Person.hello=function hello() {
 Person.sn= ' Calafell Gisbert';
 Person.hello();
 
+//oln
+var Person2 = {
+    name: 'Marc',
+    sn: 'Calafell',
+    age: '21',
+    constructor: function () {  },
 
+    hello2: function () { return 'hello ' + this.name + this.sn;  },
+
+    bye: function () { return 'bye ' + this.name + this.sn; }
+}
+
+console.log(Person2.name);
+console.log(Person2.bye());
