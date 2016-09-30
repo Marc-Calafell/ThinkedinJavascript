@@ -8,13 +8,22 @@
 //variables locals --> nomes tenen vida en una funcio o en un fragment de codi
 //variables globals ->> cal evitar-les especialment en js
 
-function hola() {
-    $nom="marc";
-    console.log('hello ' + $nom);
+function fire(bool) {
+
+    if (bool) {
+        var foo = "bar";
+        console.log(foo);
+
+    }else {
+        console.log(foo);
+
+    }
+
+
 
 }
 
-hola();
+fire(false);
 
 /*
 * hoyster podem utilitzar una funció abans de declarar-la
