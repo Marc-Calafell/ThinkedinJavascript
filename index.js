@@ -3,29 +3,8 @@
 
 //namespaces de moment no tenim classe
 
-//json
-var Person = {
-    'name': 'Marc',
-    'sn': 'Calafell',
-    'age': '21'
-};
-Person.hello=function hello() {
-    console.log('hello ' + Person.name + Person.sn);
-}
-Person.sn= ' Calafell Gisbert';
-Person.hello();
+var hello= document.getElementById('hello');
 
-//oln
-var Person2 = {
-    name: 'Marc',
-    sn: 'Calafell',
-    age: '21',
-    constructor: function () {  },
+hello.innerHTML= 'Hola';
 
-    hello2: function () { return 'hello ' + this.name + this.sn;  },
-
-    bye: function () { return 'bye ' + this.name + this.sn; }
-}
-
-console.log(Person2.name);
-console.log(Person2.bye());
+hello= document.getElementById('hello');
