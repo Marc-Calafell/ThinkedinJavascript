@@ -11,8 +11,12 @@ function Persona() {
     this.sn2= 'Gisbert';
 
 }
+var persona1= new Persona;
 
+persona1.bind(Persona);
 
 console.log(Persona.name);
+
+
 //var persona1 = new Persona('asd','asd','asd');
 //var persona2 = new Persona('asd','asd','asd');
