@@ -2,9 +2,15 @@
 
 
 //namespaces de moment no tenim classe
+var person= {
+    firstName: 'asd',
+    lastName: 'qwerty',
+    showFullName:function () {
+        console.log(this.firstName + ' ' + this.lastName)
+    }
 
-var hello= document.getElementById('hello');
+}
 
-hello.innerHTML= 'Hola';
+person.showFullName();
 
-hello= document.getElementById('hello');
+
