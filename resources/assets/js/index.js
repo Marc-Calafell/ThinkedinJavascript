@@ -1,10 +1,17 @@
 //console.log('hello world at external file');
 
+var showFullName  = function () {
+    console.log(this.firstName + ' ' + this.lastName + '' + arguments[0]);
 
+
+}
 //namespaces de moment no tenim classe
+
+var name = 'Marc';
+
 var person= {
-    firstName: 'asd',
-    lastName: 'qwerty',
+    firstName: 'Marc',
+    lastName: 'Calafell Gisbert',
     showFullName:function () {
         console.log(this.firstName + ' ' + this.lastName)
     }
@@ -13,4 +20,6 @@ var person= {
 
 person.showFullName();
 
+var copia = showFullName.bind(person);
 
+showFullName();
