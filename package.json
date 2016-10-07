@@ -1,0 +1,26 @@
+{
+  "name": "thinkedingjavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marc-Calafell/ThinkedinJavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marc-Calafell/ThinkedinJavascript/issues"
+  },
+  "homepage": "https://github.com/Marc-Calafell/ThinkedinJavascript#readme",
+  "dependencies": {
+    "laravel-elixir": "^6.0.0-11",
+    "laravel-elixir-webpack-official": "^1.0.8"
+  },
+  "devDependencies": {
+    "laravel-elixir-vue-2": "^0.2.0"
+  }
+}
