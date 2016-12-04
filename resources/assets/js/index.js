@@ -1,21 +1,17 @@
-function Persona() {
-    console.log('Creant persona');
-}
 
-
-$pers = new Persona();
-
-var Persona2= function (name) {
-    this.name= name;
-    console.log('Creant persona2');
-};
-Persona2.prototype.SayHellp= function (name) {
-    this.name= name;
-    console.log('Hola ' + name);
+var CalculaArea= function () {
+    console.log('Aqui calculo area');
 };
 
 
+var Figure= function () {
 
-$pers1 = new Persona2();
-$pers2 = new Persona2();
-$pers3 = new Persona2();
+
+};
+
+Figure.prototype.area= CalculaArea();
+
+
+var figura = new figure();
+
+console.log(figura.area);
